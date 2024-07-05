@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/ab70/fiber-restapi/router"
+	"github.com/ab70/fiber-restapi/app/router"
 	"github.com/gofiber/fiber/v2"
 )
 

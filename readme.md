@@ -14,3 +14,21 @@ go get github.com/gofiber/fiber/v2
 ```
 go run server.go
 ```
+
+#### For hot reload:
+```
+go get -u github.com/air-verse/air
+
+#export this
+export PATH=$(go env GOPATH)/bin:$PATH
+
+#reload .zshc file:
+source ~/.zshrc
+
+#which air and then put that in:
+nano ~/.zshrc
+export PATH=$PATH:/home/ab/go/bin
+
+
+```
+
