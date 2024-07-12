@@ -6,7 +6,8 @@ import (
 
 func GetUser(c *fiber.Ctx) error {
 	data := fiber.Map{
-		"he": "LLp",
+		"he": "LLps",
+		"userName":"username"
 	}
 	return c.JSON(data)
 }
