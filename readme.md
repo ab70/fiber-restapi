@@ -32,3 +32,8 @@ export PATH=$PATH:/home/ab/go/bin
 
 ```
 
+### To build for binary use this:
+```
+# this will generate a birany in the current directory
+ go build -o server server.go
+```
